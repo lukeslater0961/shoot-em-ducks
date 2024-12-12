@@ -9,7 +9,6 @@ Welcome to the **Shoot'em Ducks** repository. This project represents an ongoing
 - **Low-Poly Art Style**: Employs a minimalist design ethos to enhance visual clarity while maintaining stylistic appeal.
 - **First-Person Perspective**: Allows unrestricted aiming and visual exploration, with player mobility intentionally constrained to heighten focus on shooting mechanics.
 - **Environments**: Includes main menu and game menu environments, designed to reflect the low-poly aesthetic.
-- **Crosshair**: A functional crosshair is implemented for aiming assistance.
 - **HUD**: HUD visuals are under active development to enhance user interaction and immersion.
 
 ---
