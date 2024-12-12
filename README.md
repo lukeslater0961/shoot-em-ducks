@@ -30,7 +30,7 @@ Welcome to the **Shoot'em Ducks** repository. This project represents an ongoing
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/low-poly-shooter.git
+   git clone https://github.com/lukeslater0961/shoot-em-ducks.git
    ```
 
 2. Open the project in Unity (version 6.0.0 or later).
