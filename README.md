@@ -56,6 +56,14 @@ Welcome to the **Shoot'em Ducks** repository. This project represents an ongoing
 - Optimization of user interface and menu systems for streamlined interaction.
 
 ---
+##Images
+
+![image](https://github.com/user-attachments/assets/ba26adb0-1943-4377-9ae6-4f4777583dc2)
+![image](https://github.com/user-attachments/assets/4f87dc63-b045-4d19-aaef-c1e67b0e2e34)
+
+
+---
+
 
 ## Contributing
 
