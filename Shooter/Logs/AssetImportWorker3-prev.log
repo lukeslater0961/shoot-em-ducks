@@ -11,19 +11,19 @@ D:\unity\installs\6000.0.23f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-D:/projects/Shooter
+D:/projects/shootducks/Shooter
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-51913
+54025
 -job-worker-count
 7
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: D:/projects/Shooter
-D:/projects/Shooter
+Successfully changed project path to: D:/projects/shootducks/Shooter
+D:/projects/shootducks/Shooter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,14 +59,12 @@ D:/projects/Shooter
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28972]  Target information:
+Player connection [9376]  Target information:
 
-Player connection [28972]  * "[IP] 192.168.1.151 [Port] 0 [Flags] 2 [Guid] 3613768012 [EditorId] 3613768012 [Version] 1048832 [Id] WindowsEditor(7,Lukespc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9376]  * "[IP] 192.168.1.151 [Port] 0 [Flags] 2 [Guid] 3801642444 [EditorId] 3801642444 [Version] 1048832 [Id] WindowsEditor(7,Lukespc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28972]  * "[IP] 172.29.224.1 [Port] 0 [Flags] 2 [Guid] 3613768012 [EditorId] 3613768012 [Version] 1048832 [Id] WindowsEditor(7,Lukespc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [28972] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28972] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9376] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9376] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,11 +75,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
 [Subsystems] Discovering subsystems at path D:/unity/installs/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/projects/Shooter/Assets
+[Subsystems] Discovering subsystems at path D:/projects/shootducks/Shooter/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -99,49 +97,49 @@ Initialize mono
 Mono path[0] = 'D:/unity/installs/6000.0.23f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/installs/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/installs/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/installs/6000.0.23f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/unity/installs/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/unity/installs/6000.0.23f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: D:/unity/installs/6000.0.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.096151 seconds.
-- Loaded All Assemblies, in  2.034 seconds
+Registered in 0.006293 seconds.
+- Loaded All Assemblies, in  0.578 seconds
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.146 seconds
-Domain Reload Profiling: 3181ms
-	BeginReloadAssembly (1162ms)
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 1089ms
+	BeginReloadAssembly (224ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (284ms)
-	LoadAllAssembliesAndSetupDomain (500ms)
-		LoadAssemblies (1164ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (226ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (494ms)
-			TypeCache.Refresh (492ms)
-				TypeCache.ScanAssembly (440ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (189ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1147ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (512ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1089ms)
+		SetupLoadedEditorAssemblies (466ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (644ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (10ms)
-			ProcessInitializeOnLoadAttributes (280ms)
-			ProcessInitializeOnLoadMethodAttributes (146ms)
+			InitializePlatformSupportModulesInManaged (119ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,59 +148,115 @@ Domain Reload Profiling: 3181ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.043 seconds
-Refreshing native plugins compatible for Editor in 20.50 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.503 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.801 seconds
-Domain Reload Profiling: 8843ms
-	BeginReloadAssembly (1789ms)
+- Finished resetting the current domain, in  1.250 seconds
+Domain Reload Profiling: 2751ms
+	BeginReloadAssembly (676ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (3155ms)
-		LoadAssemblies (2923ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (679ms)
+		LoadAssemblies (553ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (404ms)
-			TypeCache.Refresh (312ms)
-				TypeCache.ScanAssembly (257ms)
-			BuildScriptInfoCaches (73ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (3801ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (221ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1251ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2325ms)
+		SetupLoadedEditorAssemblies (950ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
+			InitializePlatformSupportModulesInManaged (24ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (1576ms)
-			ProcessInitializeOnLoadMethodAttributes (652ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (752ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 263 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6060 unused Assets / (6.5 MB). Loaded Objects now: 6905.
-Memory consumption went from 295.9 MB to 289.4 MB.
-Total: 10.409600 ms (FindLiveObjects: 0.609800 ms CreateObjectMapping: 0.652900 ms MarkObjects: 5.706700 ms  DeleteObjects: 3.438800 ms)
+Unloading 6061 unused Assets / (6.2 MB). Loaded Objects now: 6908.
+Memory consumption went from 296.4 MB to 290.2 MB.
+Total: 11.864100 ms (FindLiveObjects: 0.660800 ms CreateObjectMapping: 0.682100 ms MarkObjects: 7.115600 ms  DeleteObjects: 3.404100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6246.192507 seconds.
+  path: Assets/Packages/SimpleLowPolyNature/Materials/PlantMat.mat
+  artifactKey: Guid(49f2ecb08a0c38140b335a0a1f7f66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/SimpleLowPolyNature/Materials/PlantMat.mat using Guid(49f2ecb08a0c38140b335a0a1f7f66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2e92df3c4569999611667d773018a49') in 0.5125158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.399361 seconds.
+  path: Assets/Packages/PolygonNatureBiomes/PNB_Alpine_Mountain/Materials/Water_Lake_01.mat
+  artifactKey: Guid(b86bb7b11bd7eff43b61b41f4566208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/PolygonNatureBiomes/PNB_Alpine_Mountain/Materials/Water_Lake_01.mat using Guid(b86bb7b11bd7eff43b61b41f4566208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f07018d30cebedcdaa3a8c996c236248') in 0.1675897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.756267 seconds.
+  path: Assets/Packages/PolygonNatureBiomes/PNB_Alpine_Mountain/FX/FX_Materials/Wing_Mat_01.mat
+  artifactKey: Guid(481c20719c260b8449e3589b0a5dafc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/PolygonNatureBiomes/PNB_Alpine_Mountain/FX/FX_Materials/Wing_Mat_01.mat using Guid(481c20719c260b8449e3589b0a5dafc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0af5b9313d7d45bd37850e5b430455e8') in 0.1125175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.539032 seconds.
+  path: Assets/Packages/Low Poly Nature Pack Lite/Models/tile_flat.fbx
+  artifactKey: Guid(b805d166088e1ad4fb6ede3f951743e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low Poly Nature Pack Lite/Models/tile_flat.fbx using Guid(b805d166088e1ad4fb6ede3f951743e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f615958150737833f787fe00daf68005') in 0.0562383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.185254 seconds.
+  path: Assets/Packages/Low Poly Nature Pack Lite/Models/stone01.fbx
+  artifactKey: Guid(3ff9d0b8af89c7d43bf545a0cdb5620d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low Poly Nature Pack Lite/Models/stone01.fbx using Guid(3ff9d0b8af89c7d43bf545a0cdb5620d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '037acb13ab500fb2f4b514385e187454') in 0.0585033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.225537 seconds.
+  path: Assets/Packages/Happy Little Trees - Free nature pack by Nebula/Meshes/Trees/Spruce/Spruce_008.fbx
+  artifactKey: Guid(2f0d06460af8385498085d4e0b7f35d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Happy Little Trees - Free nature pack by Nebula/Meshes/Trees/Spruce/Spruce_008.fbx using Guid(2f0d06460af8385498085d4e0b7f35d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44d44aa438b509659aaf6d634b57cc87') in 0.0214506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.294504 seconds.
+  path: Assets/Packages/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/SM_Prop_Backpack_01.fbx
+  artifactKey: Guid(fa2300dc44adab04b9896e18147550c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/SM_Prop_Backpack_01.fbx using Guid(fa2300dc44adab04b9896e18147550c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57223356e666a4ce5e4a4e6356dd655d') in 0.0454003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
