@@ -33,7 +33,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: dwqdqw
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: trigger
@@ -117,7 +117,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: dqwdq
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: trigger2
