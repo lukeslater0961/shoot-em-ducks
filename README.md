@@ -49,6 +49,7 @@ Welcome to the **Shoot'em Ducks** repository. This project represents an ongoing
 - Refinement of HUD visuals.
 - Development of shooting mechanics.
 - Conceptualization and implementation of wave system dynamics.
+- Changing the game scene to fit the game in a better way
 
 ### Planned:
 - Integration of a comprehensive scoring system and global leaderboards.
