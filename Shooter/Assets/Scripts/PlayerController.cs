@@ -12,8 +12,11 @@ public class PlayerController : MonoBehaviour
 
     private CharacterController characterController;
     [SerializeField] Transform cameraTransform;
+    [SerializeField] Transform BarrelTransform;
 
     private InputAction lookAction;
+
+    private float barrelDefaultAngle = 146f;
 
     private void Start()
     {
@@ -41,10 +44,12 @@ public class PlayerController : MonoBehaviour
 
             currentRotationY += rotationInputY;
             currentRotationX -= rotationInputX;
-            currentRotationX = Mathf.Clamp(currentRotationX, -45f, 45f);
+            currentRotationX = Mathf.Clamp(currentRotationX, -20f, 20f);
+            currentRotationY = Mathf.Clamp(currentRotationY, barrelDefaultAngle - 45f, barrelDefaultAngle + 45f);
 
             transform.rotation = Quaternion.Euler(0f, currentRotationY, 0f);
             cameraTransform.rotation = Quaternion.Euler(currentRotationX, currentRotationY, 0f);
+            BarrelTransform.rotation = Quaternion.Euler(currentRotationX, currentRotationY, 0f);
         }
     }
 }

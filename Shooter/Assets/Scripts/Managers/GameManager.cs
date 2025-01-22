@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public bool ison = false;
 
     private int Score = 0;
+
     void Start()
     {
         escapeAction = InputSystem.actions.FindAction("GoBack");
@@ -18,13 +19,18 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        HandleInput();
+    }
+
+    void HandleInput()
+    {
         if (escapeAction.WasPressedThisFrame() && !ison && !playerController.isInSettings)
         {
-            playerController.isInSettings = true;
+            settingAnimator.SetTrigger("trigger");
+            settingsCanvas.gameObject.SetActive(true);
             Cursor.visible = true;
             ison = true;
-            settingsCanvas.gameObject.SetActive(true);
-            settingAnimator.SetTrigger("trigger");
+            playerController.isInSettings = true;
         }
         else if (escapeAction.WasPressedThisFrame() && ison)
         {
