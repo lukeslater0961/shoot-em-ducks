@@ -58,9 +58,8 @@ Welcome to the **Shoot'em Ducks** repository. This project represents an ongoing
 
 ---
 ##Images
-
-![image](https://github.com/user-attachments/assets/ba26adb0-1943-4377-9ae6-4f4777583dc2)
 ![image](https://github.com/user-attachments/assets/4f87dc63-b045-4d19-aaef-c1e67b0e2e34)
+![screenshot3Game](https://github.com/user-attachments/assets/f90e9dc2-04d9-4a98-bdbe-bc6d675131ef)
 
 
 ---
