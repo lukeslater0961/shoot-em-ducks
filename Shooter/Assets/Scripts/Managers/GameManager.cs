@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         highScore = PlayerPrefs.GetInt("HighScore");
-        //Debug.Log($"got a highscore of {highScore}");
+        Debug.Log($"got a highscore of {highScore}");
         scoreText.text = $"score = {score}";
         escapeAction = InputSystem.actions.FindAction("GoBack");
         Cursor.lockState = CursorLockMode.Confined;

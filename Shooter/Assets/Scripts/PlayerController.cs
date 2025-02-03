@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
 
             currentRotationY += rotationInputY;
             currentRotationX -= rotationInputX;
-            currentRotationX = Mathf.Clamp(currentRotationX, -20f, 20f);
+            currentRotationX = Mathf.Clamp(currentRotationX, -25f, 20f);
             currentRotationY = Mathf.Clamp(currentRotationY, barrelDefaultAngle - 45f, barrelDefaultAngle + 45f);
 
             transform.rotation = Quaternion.Euler(0f, currentRotationY, 0f);

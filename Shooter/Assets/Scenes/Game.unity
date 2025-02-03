@@ -138,6 +138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 22295078}
+  - component: {fileID: 22295079}
   m_Layer: 0
   m_Name: TargetSpawner
   m_TagString: Untagged
@@ -160,6 +161,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &22295079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22295077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d902e13c900cc1a4a9d46d20ed4d65d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numOfTarget: 0
+  target: {fileID: 7996953243969318686, guid: 8cba47612544a494b8cf0bb1df25e78a, type: 3}
+  spawnPos: {x: 0, y: 0, z: 0}
 --- !u!1 &30551091
 GameObject:
   m_ObjectHideFlags: 0
