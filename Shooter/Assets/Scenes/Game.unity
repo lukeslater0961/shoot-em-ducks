@@ -173,9 +173,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d902e13c900cc1a4a9d46d20ed4d65d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerPos: {fileID: 903235716}
   numOfTarget: 0
-  target: {fileID: 7996953243969318686, guid: 8cba47612544a494b8cf0bb1df25e78a, type: 3}
+  target: {fileID: 6019573474422166228, guid: 8cba47612544a494b8cf0bb1df25e78a, type: 3}
   spawnPos: {x: 0, y: 0, z: 0}
+  isSpawning: 0
 --- !u!1 &30551091
 GameObject:
   m_ObjectHideFlags: 0
@@ -2984,7 +2986,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4924783946067484, guid: d4af3966dba2cd746ab019083640eb8c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.88
+      value: 1.928
       objectReference: {fileID: 0}
     - target: {fileID: 4924783946067484, guid: d4af3966dba2cd746ab019083640eb8c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2992,7 +2994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4924783946067484, guid: d4af3966dba2cd746ab019083640eb8c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.18
+      value: -3.149
       objectReference: {fileID: 0}
     - target: {fileID: 4924783946067484, guid: d4af3966dba2cd746ab019083640eb8c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3021,6 +3023,10 @@ PrefabInstance:
     - target: {fileID: 4924783946067484, guid: d4af3966dba2cd746ab019083640eb8c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199491464826902502, guid: d4af3966dba2cd746ab019083640eb8c, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

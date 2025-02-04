@@ -10,6 +10,9 @@ public class Target : MonoBehaviour
     {
         health -= damage;
         if (health <= 0)
+        {
             Destroy(gameObject);
+            TargetSpawner.Instance.TargetDestroyed();
+        }
     }
 }
