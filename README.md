@@ -18,7 +18,6 @@ Shoot'em Ducks is a first-person duck shooting game with a distinctive low-poly 
 |-----------------|------------------|
 | Look Around     | `Mouse Movement` |
 | Shoot           | `Left Mouse`     |
-| Aim             | `Right Mouse`    |
 | Reload          | `R`              |
 
 *(Note: Shooting mechanics and related functionalities are in progress.)*
@@ -45,7 +44,7 @@ Shoot'em Ducks is a first-person duck shooting game with a distinctive low-poly 
 - Scene optimization for improved gameplay flow
 
 ### Planned:
-- Scoring system and global leaderboards
+- Scoring system
 - Expanded level and wave variety
 - Optimized UI and menu interactions
 
@@ -58,9 +57,6 @@ As a personal project, external contributions are not actively solicited, but fe
 This project is distributed under the [MIT License](LICENSE).
 
 ## Acknowledgments
-
-- Special thanks to the Unity community for tutorials and resources.
-- Inspired by classic duck shooting games and low-poly aesthetics.
 - Asset pack provided by Sinty Studios.
 
 ## Contact
@@ -69,7 +65,4 @@ For inquiries or collaboration opportunities:
 - **Email**: [luke.a.slater@outlook.com](mailto:luke.a.slater@outlook.com)
 - **GitHub**: [lukeslater0961](https://github.com/lukeslater0961)
 
----
-
-This version highlights your skills while maintaining a professional tone that would appeal to hiring managers or recruiters in the game development industry.
 
