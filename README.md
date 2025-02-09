@@ -1,17 +1,16 @@
-# Low-Poly Shooter Game
+# Shoot'em Ducks
 
-Welcome to the **Shoot'em Ducks** repository. This project represents an ongoing effort to develop an engaging and visually distinct first-person duck shooting experience within a low-poly aesthetic framework. Initiated as a personal endeavor, this project is currently in its early stages of development.
+![Game Screenshot](https://github.com/user-attachments/assets/4f87dc63-b045-4d19-aaef-c1e67b0e2e34)
+![In-Game Screenshot](https://github.com/user-attachments/assets/f90e9dc2-04d9-4a98-bdbe-bc6d675131ef)
 
----
+Shoot'em Ducks is a first-person duck shooting game with a distinctive low-poly aesthetic. Designed as a personal project, it showcases my ability to develop engaging gameplay mechanics, implement UI elements, and optimize visual clarity while maintaining stylistic appeal.
 
 ## Features
 
-- **Low-Poly Art Style**: Employs a minimalist design ethos to enhance visual clarity while maintaining stylistic appeal.
-- **First-Person Perspective**: Allows unrestricted aiming and visual exploration, with player mobility intentionally constrained to heighten focus on shooting mechanics.
-- **Environments**: Includes main menu and game menu environments, designed to reflect the low-poly aesthetic.
-- **HUD**: HUD visuals are under active development to enhance user interaction and immersion.
-
----
+- **Low-Poly Art Style** – A minimalist yet visually distinct design that enhances clarity and immersion.
+- **First-Person Perspective** – Unrestricted aiming with deliberate movement constraints to focus on shooting mechanics.
+- **Game Environments** – Includes a main menu and in-game environments consistent with the low-poly aesthetic.
+- **HUD & UI** – Under active development to ensure intuitive player interaction and engagement.
 
 ## Controls
 
@@ -22,79 +21,55 @@ Welcome to the **Shoot'em Ducks** repository. This project represents an ongoing
 | Aim             | `Right Mouse`    |
 | Reload          | `R`              |
 
-(Note: Shooting mechanics and related functionalities are under development.)
+*(Note: Shooting mechanics and related functionalities are in progress.)*
 
----
-
-## Installation
+## Installation & Setup
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/lukeslater0961/shoot-em-ducks.git
    ```
-
 2. Open the project in Unity (version 6.0.0 or later).
+3. Run the game within the Unity Editor or build it for Windows, Mac, or Linux.
 
-3. Execute the game within the Unity Editor or compile it for your desired platform (Windows/Mac/Linux).
-
----
-
-## Roadmap
+## Development Roadmap
 
 ### Completed:
-- Creation of the main menu and game menu environments.
-- Addition of a crosshair.
+- Main menu and in-game environment setup
+- Crosshair implementation
 
 ### In Progress:
-- Refinement of HUD visuals.
-- Development of shooting mechanics.
-- Conceptualization and implementation of wave system dynamics.
-- Changing the game scene to fit the game in a better way
+- HUD refinement
+- Shooting mechanics
+- Wave system implementation
+- Scene optimization for improved gameplay flow
 
 ### Planned:
-- Integration of a comprehensive scoring system and global leaderboards.
-- Expansion of thematic diversity across levels and waves.
-- Optimization of user interface and menu systems for streamlined interaction.
+- Scoring system and global leaderboards
+- Expanded level and wave variety
+- Optimized UI and menu interactions
 
----
-##Images
-![image](https://github.com/user-attachments/assets/4f87dc63-b045-4d19-aaef-c1e67b0e2e34)
-![screenshot3Game](https://github.com/user-attachments/assets/f90e9dc2-04d9-4a98-bdbe-bc6d675131ef)
+## Contributions
 
-
----
-
-
-## Contributing
-
-As a personal project, contributions are not actively solicited; however, feedback and suggestions are enthusiastically welcomed. Feel free to submit an issue or a pull request for consideration.
-
----
+As a personal project, external contributions are not actively solicited, but feedback and suggestions are highly welcomed. Feel free to submit issues or pull requests for consideration.
 
 ## License
 
-This project is distributed under the terms of the [MIT License](LICENSE).
-
----
+This project is distributed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- Gratitude to the Unity community for providing invaluable tutorials and development resources.
-- Creative inspiration derived from classic duck shooting games and the low-poly visual paradigm.
-- Asset Pack by Sinty studios
-
----
+- Special thanks to the Unity community for tutorials and resources.
+- Inspired by classic duck shooting games and low-poly aesthetics.
+- Asset pack provided by Sinty Studios.
 
 ## Contact
 
-For inquiries, suggestions, or feedback, please reach out via the following channels:
-
+For inquiries or collaboration opportunities:
 - **Email**: [luke.a.slater@outlook.com](mailto:luke.a.slater@outlook.com)
 - **GitHub**: [lukeslater0961](https://github.com/lukeslater0961)
 
+---
 
-
-
-
-
+This version highlights your skills while maintaining a professional tone that would appeal to hiring managers or recruiters in the game development industry.
 
