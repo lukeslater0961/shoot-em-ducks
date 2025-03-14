@@ -13,6 +13,8 @@ public class InputManager : MonoBehaviour
     private             InputAction mouseAction;
     private             InputAction mouseClick;
     private             InputAction EscapeClick; 
+
+
     private             GameObject  currentSelectedObject;
     public              bool        isInSelect = false;
 
@@ -63,12 +65,13 @@ public class InputManager : MonoBehaviour
             }
         }
 
-        if (mouseClick.WasPressedThisFrame() && currentSelectedObject != null)
+        if (mouseClick.WasPressedThisFrame() && currentSelectedObject)
         {
             if (currentSelectedObject.layer == 7)
-                mainMenuManager.StartGame();
-            else if (currentSelectedObject.layer == 6)
-                Debug.Log("Going into Weapon Selection" + currentSelectedObject.tag);
+            {
+                if (isInSelect)
+                    mainMenuManager.StartGame();
+            }
         }
     }
 }
