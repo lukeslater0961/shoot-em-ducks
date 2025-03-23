@@ -3,10 +3,11 @@ using UnityEngine.InputSystem;
 
 public class Canon : MonoBehaviour
 {
+    [SerializeField] GameManager    gameManager;
+    [SerializeField] Camera         gameCamera;
+
     [SerializeField] float          damage = 10f;
     [SerializeField] int            range = 100;
-    [SerializeField] Camera         camera;
-    [SerializeField] GameManager    gameManager;
     [SerializeField] int            gameDifficulty;
 
 
@@ -22,7 +23,7 @@ public class Canon : MonoBehaviour
     {
         RaycastHit hit;
 
-        if (Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, range, 1 << 3))
+        if (Physics.Raycast(gameCamera.transform.position, gameCamera.transform.forward, out hit, range, 1 << 3))
                 doDamage(hit.transform);
     }
 

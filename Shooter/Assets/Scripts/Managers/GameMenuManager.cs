@@ -7,8 +7,11 @@ public class GameMenuManager : MonoBehaviour
 {
 	public				static		GameMenuManager instance;
 
-	[SerializeField]	TMP_Text	highscoreText;
 	[SerializeField]	GameObject	HUD;
+
+	[SerializeField]	GameObject	GameMenuHUD;
+	[SerializeField]	TMP_Text	highscoreText;
+    [SerializeField]	TMP_Text	livesText;
 
     [SerializeField]	Camera		menuCamera;
 	[SerializeField]	Camera		gameCamera;
@@ -40,7 +43,8 @@ public class GameMenuManager : MonoBehaviour
 	{
         inMenu = true;
         HUD.SetActive(false);
-		GameManager.instance.inGame = false;
+        GameMenuHUD.SetActive(true);
+        GameManager.instance.inGame = false;
 
         menuCamera.gameObject.SetActive(true);
         gameCamera.gameObject.SetActive(false);
@@ -57,7 +61,26 @@ public class GameMenuManager : MonoBehaviour
 		inMenu = false;
 		menuCamera.gameObject.SetActive(false);
         gameCamera.gameObject.SetActive(true);
+		GameMenuHUD.SetActive(false);
         HUD.SetActive(true);
         GameManager.instance.GameSetup();
+    }
+
+	public void setDifficulty(bool On)
+	{
+        GameManager.instance.runtimeGameSettings.gameDifficulty = GameMode.difficulty.normal;
+    }
+
+    public void setGameMode(bool On)
+    {
+		GameManager.instance.runtimeGameSettings.gameMode = GameMode.gameModes.normal;
+    }
+
+	public void setLives(bool On)
+	{
+		GameManager.instance.runtimeGameSettings.lives = !GameManager.instance.runtimeGameSettings.lives;
+		if (GameManager.instance.runtimeGameSettings.lives)
+			livesText.text = "On";
+		else livesText.text = "Off";
     }
 }

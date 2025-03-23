@@ -2,8 +2,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
-    [SerializeField] GameManager gameManager;
-    public static SceneLoader Instance;
+    [SerializeField]    GameManager gameManager;
+    public static       SceneLoader Instance;
 
     private void Awake()
     {

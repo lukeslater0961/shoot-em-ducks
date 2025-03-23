@@ -7,28 +7,20 @@
       "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|d:\\projects\\shootducks\\shooter\\assets\\scripts\\managers\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|D:\\projects\\shootducks\\Shooter\\assets\\scripts\\mainmenu\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|d:\\projects\\shootducks\\shooter\\assets\\scripts\\scriptableobjects\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|D:\\projects\\shootducks\\Shooter\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|D:\\projects\\shootducks\\Shooter\\assets\\scripts\\target\\targetspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target\\targetspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|D:\\projects\\shootducks\\Shooter\\assets\\scripts\\managers\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|D:\\projects\\shootducks\\Shooter\\assets\\scripts\\managers\\settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|D:\\projects\\shootducks\\Shooter\\assets\\scripts\\mainmenu\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|D:\\projects\\shootducks\\Shooter\\assets\\scripts\\mainmenu\\mainemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +29,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|D:\\projects\\shootducks\\Shooter\\assets\\scripts\\fpscounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fpscounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|D:\\projects\\shootducks\\Shooter\\assets\\scripts\\managers\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,32 +42,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InputHandler.cs",
-              "DocumentMoniker": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Managers\\InputHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\InputHandler.cs",
-              "ToolTip": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Managers\\InputHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\InputHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAAA0AAAAAAAAAA==",
+              "Title": "GameMode.cs",
+              "DocumentMoniker": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\ScriptableObjects\\GameMode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\GameMode.cs",
+              "ToolTip": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\ScriptableObjects\\GameMode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\GameMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T13:27:35.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TargetSpawner.cs",
-              "DocumentMoniker": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Target\\TargetSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Target\\TargetSpawner.cs",
-              "ToolTip": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Target\\TargetSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Target\\TargetSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:39:27.279Z",
+              "WhenOpened": "2025-03-23T15:16:04.875Z",
               "EditorCaption": ""
             },
             {
@@ -82,85 +65,83 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameMenuManager.cs",
               "ToolTip": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Managers\\GameMenuManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\GameMenuManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wCgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T11:49:27.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
               "ToolTip": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T00:53:10.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Managers\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SceneLoader.cs",
               "ToolTip": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Managers\\SceneLoader.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\SceneLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T15:55:47.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T15:55:47.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "SettingsManager.cs",
               "DocumentMoniker": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Managers\\SettingsManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SettingsManager.cs",
               "ToolTip": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\Managers\\SettingsManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\SettingsManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T14:10:14.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "FpsCounter.cs",
               "DocumentMoniker": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\FpsCounter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FpsCounter.cs",
               "ToolTip": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\FpsCounter.cs",
               "RelativeToolTip": "Assets\\Scripts\\FpsCounter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T11:50:59.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "MaineMenuManager.cs",
               "DocumentMoniker": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\MainMenu\\MaineMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu\\MaineMenuManager.cs",
               "ToolTip": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\MainMenu\\MaineMenuManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMenu\\MaineMenuManager.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T11:49:08.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "InputManager.cs",
               "DocumentMoniker": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\MainMenu\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu\\InputManager.cs",
               "ToolTip": "D:\\projects\\shootducks\\Shooter\\Assets\\Scripts\\MainMenu\\InputManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMenu\\InputManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T11:46:53.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T11:46:53.441Z"
             }
           ]
         }
