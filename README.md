@@ -34,19 +34,23 @@ Shoot'em Ducks is a first-person duck shooting game with a distinctive low-poly 
 ## Development Roadmap
 
 ### Completed:
-- Main menu and in-game environment setup
+- Main menu and in-game environment design
 - Crosshair implementation
+- Shooting mechanics
+- Scoring system
 
 ### In Progress:
-- HUD refinement
-- Shooting mechanics
-- Wave system implementation
-- Scene optimization for improved gameplay flow
+-UI to set game modes / difficulty etc
 
 ### Planned:
-- Scoring system
-- Expanded level and wave variety
-- Optimized UI and menu interactions
+- pregame menu
+    - ammo system (limited bullets(UI) set in menu, basically difficulty, reload button)
+    - infinity mode (no wave just infinite ammo + targets with maybe a set amount of lives or not and an increasing speed)
+- wave system
+    - set amount of targets and then maybe some special targets for extra points
+    - wave is validated with minimum amount score required ?
+- target types (scriptable objects for set materials , health and points)
+- Change main menu decor (remove tables ? or just the tags for the interact and add the canon somewhere )
 
 ## Contributions
 
@@ -58,9 +62,6 @@ This project is distributed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 - Asset pack provided by Sinty Studios.
-
-## Contact
-
 For inquiries or collaboration opportunities:
 - **Email**: [luke.a.slater@outlook.com](mailto:luke.a.slater@outlook.com)
 - **GitHub**: [lukeslater0961](https://github.com/lukeslater0961)
