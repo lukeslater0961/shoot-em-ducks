@@ -8,8 +8,8 @@ public class GameMenuManager : MonoBehaviour
 	public				static		GameMenuManager instance;
 
 	[SerializeField]	GameObject	HUD;
-
 	[SerializeField]	GameObject	GameMenuHUD;
+
 	[SerializeField]	TMP_Text	highscoreText;
     [SerializeField]	TMP_Text	livesText;
 
@@ -42,8 +42,8 @@ public class GameMenuManager : MonoBehaviour
     public void createGameMenu()
 	{
         inMenu = true;
-        HUD.SetActive(false);
-        GameMenuHUD.SetActive(true);
+		HUDHandler.instance.ToggleActive(HUD, false);
+		HUDHandler.instance.ToggleActive(GameMenuHUD, true);
         GameManager.instance.inGame = false;
 
         menuCamera.gameObject.SetActive(true);

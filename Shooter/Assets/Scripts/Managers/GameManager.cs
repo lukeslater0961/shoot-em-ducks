@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
 
 	public void  GameSetup()
 	{
-		hudSetup();
+		HUDHandler.instance.hudSetup(healthText, roundText, scoreText);
 		Cursor.lockState = CursorLockMode.Confined;
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
@@ -42,26 +42,6 @@ public class GameManager : MonoBehaviour
 		scoreText.text = $"score = {score}";
 	}
 
-
-	/// <summary>
-	/// Sets all the correct values for the HUD
-	/// </summary>
-	public void hudSetup()
-	{
-		Debug.Log(runtimeGameSettings.lives);
-		if (runtimeGameSettings.lives)
-		{
-			healthText.gameObject.SetActive(true);
-			healthText.text = $"{health}" + healthText.text;
-        }
-        else healthText.gameObject.SetActive(false);
-
-		if (runtimeGameSettings.gameMode == GameMode.gameModes.infinite)
-			roundText.gameObject.SetActive(true);
-		else roundText.gameObject.SetActive(false);
-
-        scoreText.text = $"score = {score}";
-    }
 
 	public void ReduceHealth()
 	{
