@@ -25,6 +25,8 @@ public class Canon : MonoBehaviour
 
         if (Physics.Raycast(gameCamera.transform.position, gameCamera.transform.forward, out hit, range, 1 << 3))
                 doDamage(hit.transform);
+		else
+			GameManager.instance.health--;
     }
 
     void    doDamage(Transform targetTransform)
