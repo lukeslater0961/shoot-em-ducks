@@ -14,7 +14,7 @@ public class Canon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (GameManager.instance.inGame && Input.GetButtonDown("Fire1"))
             Fire();
     }
 
@@ -26,7 +26,8 @@ public class Canon : MonoBehaviour
         if (Physics.Raycast(gameCamera.transform.position, gameCamera.transform.forward, out hit, range, 1 << 3))
                 doDamage(hit.transform);
 		else
-			GameManager.instance.health--;
+			GameManager.instance.ReduceHealth();
+
     }
 
     void    doDamage(Transform targetTransform)

@@ -62,4 +62,31 @@ public class GameManager : MonoBehaviour
 
         scoreText.text = $"score = {score}";
     }
+
+	public void ReduceHealth()
+	{
+		if (runtimeGameSettings.lives)
+		{
+			health--;
+			if (health <= 0)
+				GameOver(1);
+			healthText.text = "/3";
+			healthText.text = $"{health}" + healthText.text;
+		}
+	}
+
+	/// <summary>
+	/// Handles all GameOver types and loads the screen in consequence (to be worked on) 
+	/// </summary>
+	public void GameOver(int type)
+	{
+		switch(type)
+		{
+			case 1:
+				Debug.Log("Game over, no more lives");
+				GameMenuManager.instance.createGameMenu();
+			break;
+		}
+	}
+
 }
