@@ -28,7 +28,8 @@ public class GameManager : MonoBehaviour
 
 	public void  GameSetup()
 	{
-		HUDHandler.instance.hudSetup(healthText, roundText, scoreText);
+		health = 3;
+		HUDHandler.instance.HudSetup(healthText, roundText, scoreText, runtimeGameSettings.lives);
 		Cursor.lockState = CursorLockMode.Confined;
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
@@ -41,7 +42,6 @@ public class GameManager : MonoBehaviour
 		score += type * 10;
 		scoreText.text = $"score = {score}";
 	}
-
 
 	public void ReduceHealth()
 	{
@@ -68,5 +68,4 @@ public class GameManager : MonoBehaviour
 			break;
 		}
 	}
-
 }

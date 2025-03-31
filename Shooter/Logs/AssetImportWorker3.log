@@ -25,7 +25,7 @@ AssetImportWorker3
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-35553
+42629
 -job-worker-count
 7
 -background-job-worker-count
@@ -34,9 +34,9 @@ Logs/AssetImportWorker3.log
 1
 Successfully changed project path to: /nfs/homes/lslater/Documents/priv_shit/shoot-em-ducks/Shooter
 
-(Unity:3619336): Gtk-CRITICAL **: 11:26:59.703: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:3652215): Gtk-CRITICAL **: 12:44:57.987: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:3619336): Gtk-CRITICAL **: 11:26:59.707: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:3652215): Gtk-CRITICAL **: 12:44:57.988: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 /nfs/homes/lslater/Documents/priv_shit/shoot-em-ducks/Shooter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
@@ -73,16 +73,16 @@ Successfully changed project path to: /nfs/homes/lslater/Documents/priv_shit/sho
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [139807258285376]  Target information:
+Player connection [139815715804480]  Target information:
 
-Player connection [139807258285376]  * "[IP] 10.12.3.6 [Port] 0 [Flags] 2 [Guid] 1996723599 [EditorId] 1996723599 [Version] 1048832 [Id] LinuxEditor(16,10.12.3.6) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139815715804480]  * "[IP] 10.12.3.6 [Port] 0 [Flags] 2 [Guid] 74481044 [EditorId] 74481044 [Version] 1048832 [Id] LinuxEditor(16,10.12.3.6) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139807258285376]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 1996723599 [EditorId] 1996723599 [Version] 1048832 [Id] LinuxEditor(16,10.12.3.6) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139815715804480]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 74481044 [EditorId] 74481044 [Version] 1048832 [Id] LinuxEditor(16,10.12.3.6) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139807258285376]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 1996723599 [EditorId] 1996723599 [Version] 1048832 [Id] LinuxEditor(16,10.12.3.6) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139815715804480]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 74481044 [EditorId] 74481044 [Version] 1048832 [Id] LinuxEditor(16,10.12.3.6) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139807258285376] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [139807258285376] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [139815715804480] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [139815715804480] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 32.94 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
 [Subsystems] Discovering subsystems at path /sgoinfre/goinfre/Perso/lslater/lslater42/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
@@ -116,7 +116,7 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_part
 itioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_cohe
 rent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1458827720
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1874533528
 Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
@@ -127,44 +127,44 @@ Initialize mono
 Mono path[0] = '/sgoinfre/goinfre/Perso/lslater/lslater42/6000.0.23f1/Editor/Data/Managed'
 Mono path[1] = '/sgoinfre/goinfre/Perso/lslater/lslater42/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/sgoinfre/goinfre/Perso/lslater/lslater42/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56215
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /sgoinfre/goinfre/Perso/lslater/lslater42/6000.0.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.025363 seconds.
-- Loaded All Assemblies, in  0.396 seconds
+Registered in 0.031409 seconds.
+- Loaded All Assemblies, in  0.508 seconds
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 16.221 seconds
-Domain Reload Profiling: 16617ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in 12.057 seconds
+Domain Reload Profiling: 12564ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
+	RebuildCommonClasses (68ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (91ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (168ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (136ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (130ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (16222ms)
+	FinalizeReload (12057ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (410ms)
+		SetupLoadedEditorAssemblies (320ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (62ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (245ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -172,508 +172,338 @@ Domain Reload Profiling: 16617ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.567 seconds
-Refreshing native plugins compatible for Editor in 16.53 ms, found 0 plugins.
+- Loaded All Assemblies, in  2.353 seconds
+Refreshing native plugins compatible for Editor in 22.41 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.456 seconds
-Domain Reload Profiling: 4998ms
-	BeginReloadAssembly (361ms)
+- Finished resetting the current domain, in  1.398 seconds
+Domain Reload Profiling: 3745ms
+	BeginReloadAssembly (426ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (146ms)
-	LoadAllAssembliesAndSetupDomain (1989ms)
-		LoadAssemblies (1723ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (1732ms)
+		LoadAssemblies (1344ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (325ms)
-			TypeCache.Refresh (238ms)
-				TypeCache.ScanAssembly (217ms)
-			BuildScriptInfoCaches (72ms)
+		AnalyzeDomain (458ms)
+			TypeCache.Refresh (349ms)
+				TypeCache.ScanAssembly (320ms)
+			BuildScriptInfoCaches (94ms)
 			ResolveRequiredComponents (12ms)
-	FinalizeReload (2457ms)
+	FinalizeReload (1398ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1361ms)
+		SetupLoadedEditorAssemblies (1010ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (103ms)
-			ProcessInitializeOnLoadAttributes (585ms)
-			ProcessInitializeOnLoadMethodAttributes (608ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (618ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
 			AfterProcessingInitializeOnLoad (24ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+		AwakeInstancesAfterBackupRestoration (4ms)
 Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
 AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 11.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 262 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6069 unused Assets / (7.9 MB). Loaded Objects now: 6928.
-Memory consumption went from 201.2 MB to 193.3 MB.
-Total: 13.601834 ms (FindLiveObjects: 0.638896 ms CreateObjectMapping: 1.169434 ms MarkObjects: 7.498457 ms  DeleteObjects: 4.293794 ms)
+Unloading 6070 unused Assets / (7.7 MB). Loaded Objects now: 6929.
+Memory consumption went from 201.6 MB to 193.9 MB.
+Total: 10.808661 ms (FindLiveObjects: 0.617654 ms CreateObjectMapping: 1.001771 ms MarkObjects: 5.372907 ms  DeleteObjects: 3.815324 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.650 seconds
-Refreshing native plugins compatible for Editor in 13.79 ms, found 0 plugins.
+- Loaded All Assemblies, in 17.218 seconds
+Refreshing native plugins compatible for Editor in 20.43 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.147 seconds
-Domain Reload Profiling: 2793ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.993 seconds
+Domain Reload Profiling: 18206ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (1340ms)
-		LoadAssemblies (621ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (193ms)
+	LoadAllAssembliesAndSetupDomain (16837ms)
+		LoadAssemblies (830ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (770ms)
-			TypeCache.Refresh (10ms)
+		AnalyzeDomain (16053ms)
+			TypeCache.Refresh (212ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (744ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1147ms)
+			BuildScriptInfoCaches (15828ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (993ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (773ms)
+		SetupLoadedEditorAssemblies (679ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (514ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (25ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (23ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 25.14 ms, found 0 plugins.
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 133.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (8.8 MB). Loaded Objects now: 6943.
-Memory consumption went from 170.2 MB to 161.3 MB.
-Total: 12.599116 ms (FindLiveObjects: 0.640618 ms CreateObjectMapping: 1.095584 ms MarkObjects: 5.516757 ms  DeleteObjects: 5.345304 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 3966801.134140 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(cca3d195da67a8a4d889f196ddf914f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(cca3d195da67a8a4d889f196ddf914f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8318a508144692c71733d166d2cc5d96') in 0.030209633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 19.590 seconds
-Refreshing native plugins compatible for Editor in 33.72 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.163 seconds
-Domain Reload Profiling: 20749ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (19311ms)
-		LoadAssemblies (1106ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18257ms)
-			TypeCache.Refresh (88ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (18156ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1163ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (887ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (427ms)
-			ProcessInitializeOnLoadAttributes (346ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 29.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (8.8 MB). Loaded Objects now: 6947.
-Memory consumption went from 169.0 MB to 160.1 MB.
-Total: 13.502329 ms (FindLiveObjects: 0.608147 ms CreateObjectMapping: 1.004825 ms MarkObjects: 4.927844 ms  DeleteObjects: 6.960483 ms)
+Unloading 6068 unused Assets / (7.9 MB). Loaded Objects now: 6944.
+Memory consumption went from 170.6 MB to 162.6 MB.
+Total: 10.175531 ms (FindLiveObjects: 0.633667 ms CreateObjectMapping: 0.995787 ms MarkObjects: 4.646254 ms  DeleteObjects: 3.899191 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 14.440 seconds
-Refreshing native plugins compatible for Editor in 32.34 ms, found 0 plugins.
+- Loaded All Assemblies, in 15.515 seconds
+Refreshing native plugins compatible for Editor in 10.54 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.817 seconds
-Domain Reload Profiling: 15253ms
-	BeginReloadAssembly (145ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (101ms)
-	LoadAllAssembliesAndSetupDomain (14148ms)
-		LoadAssemblies (1138ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13059ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (12917ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (817ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (563ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (393ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 23.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (8.3 MB). Loaded Objects now: 6949.
-Memory consumption went from 169.0 MB to 160.7 MB.
-Total: 10.734630 ms (FindLiveObjects: 0.650777 ms CreateObjectMapping: 1.007520 ms MarkObjects: 4.957768 ms  DeleteObjects: 4.117909 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 13.422 seconds
-Refreshing native plugins compatible for Editor in 28.09 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.828 seconds
-Domain Reload Profiling: 14247ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (122ms)
-	LoadAllAssembliesAndSetupDomain (13102ms)
-		LoadAssemblies (951ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12199ms)
-			TypeCache.Refresh (43ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (12144ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (829ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (558ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (387ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 20.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (6.9 MB). Loaded Objects now: 6951.
-Memory consumption went from 169.0 MB to 162.1 MB.
-Total: 9.387104 ms (FindLiveObjects: 0.614594 ms CreateObjectMapping: 1.063738 ms MarkObjects: 4.859902 ms  DeleteObjects: 2.848238 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 16.401 seconds
-Refreshing native plugins compatible for Editor in 4.85 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.850 seconds
-Domain Reload Profiling: 17247ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (279ms)
-	LoadAllAssembliesAndSetupDomain (15930ms)
-		LoadAssemblies (716ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15263ms)
-			TypeCache.Refresh (88ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (15162ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (851ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (597ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (422ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (24ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 16.14 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (7.0 MB). Loaded Objects now: 6953.
-Memory consumption went from 168.9 MB to 162.0 MB.
-Total: 9.398039 ms (FindLiveObjects: 0.634749 ms CreateObjectMapping: 1.034240 ms MarkObjects: 4.789500 ms  DeleteObjects: 2.938835 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 14.067 seconds
-Refreshing native plugins compatible for Editor in 25.29 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.033 seconds
-Domain Reload Profiling: 15094ms
-	BeginReloadAssembly (143ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (13801ms)
-		LoadAssemblies (804ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13043ms)
-			TypeCache.Refresh (43ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (12988ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1033ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (756ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (328ms)
-			ProcessInitializeOnLoadAttributes (328ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 13.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (7.7 MB). Loaded Objects now: 6955.
-Memory consumption went from 169.0 MB to 161.3 MB.
-Total: 10.679128 ms (FindLiveObjects: 0.667319 ms CreateObjectMapping: 1.065025 ms MarkObjects: 5.113913 ms  DeleteObjects: 3.832285 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 14.553 seconds
-Refreshing native plugins compatible for Editor in 12.12 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.913 seconds
-Domain Reload Profiling: 15462ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.868 seconds
+Domain Reload Profiling: 16380ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (45ms)
 	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (196ms)
-	LoadAllAssembliesAndSetupDomain (14159ms)
-		LoadAssemblies (1223ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (15224ms)
+		LoadAssemblies (1285ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12992ms)
-			TypeCache.Refresh (10ms)
+		AnalyzeDomain (13986ms)
+			TypeCache.Refresh (120ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (12969ms)
+			BuildScriptInfoCaches (13854ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (914ms)
+	FinalizeReload (869ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (627ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 22.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (8.9 MB). Loaded Objects now: 6946.
+Memory consumption went from 168.8 MB to 159.9 MB.
+Total: 11.386932 ms (FindLiveObjects: 0.689161 ms CreateObjectMapping: 1.206920 ms MarkObjects: 5.235144 ms  DeleteObjects: 4.254573 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 13.500 seconds
+Refreshing native plugins compatible for Editor in 18.05 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.949 seconds
+Domain Reload Profiling: 14445ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (13169ms)
+		LoadAssemblies (1051ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12172ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (12045ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (949ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (658ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (453ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 18.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (8.4 MB). Loaded Objects now: 6948.
+Memory consumption went from 168.8 MB to 160.4 MB.
+Total: 11.978313 ms (FindLiveObjects: 0.645666 ms CreateObjectMapping: 1.126601 ms MarkObjects: 5.564144 ms  DeleteObjects: 4.641099 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.480 seconds
+Refreshing native plugins compatible for Editor in 20.20 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.876 seconds
+Domain Reload Profiling: 16353ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (15197ms)
+		LoadAssemblies (1158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14088ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (13952ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (876ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (605ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 19.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (8.2 MB). Loaded Objects now: 6950.
+Memory consumption went from 168.8 MB to 160.6 MB.
+Total: 9.967435 ms (FindLiveObjects: 0.600967 ms CreateObjectMapping: 1.045856 ms MarkObjects: 4.661070 ms  DeleteObjects: 3.658559 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.284 seconds
+Refreshing native plugins compatible for Editor in 17.73 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.921 seconds
+Domain Reload Profiling: 16201ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (14930ms)
+		LoadAssemblies (1296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13692ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (13566ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (921ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (652ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (33ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (448ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (444ms)
 			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (22ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 21.35 ms, found 0 plugins.
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 14.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (7.6 MB). Loaded Objects now: 6957.
-Memory consumption went from 169.0 MB to 161.4 MB.
-Total: 9.951311 ms (FindLiveObjects: 0.612528 ms CreateObjectMapping: 0.989650 ms MarkObjects: 5.098170 ms  DeleteObjects: 3.250349 ms)
+Unloading 6068 unused Assets / (8.1 MB). Loaded Objects now: 6952.
+Memory consumption went from 168.8 MB to 160.7 MB.
+Total: 9.751868 ms (FindLiveObjects: 0.600847 ms CreateObjectMapping: 0.961699 ms MarkObjects: 4.764341 ms  DeleteObjects: 3.424425 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 14.334 seconds
-Refreshing native plugins compatible for Editor in 25.18 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.836 seconds
-Domain Reload Profiling: 15165ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (14029ms)
-		LoadAssemblies (1081ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12998ms)
-			TypeCache.Refresh (32ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (12953ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (836ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (580ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (408ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 23.03 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (8.3 MB). Loaded Objects now: 6959.
-Memory consumption went from 169.0 MB to 160.7 MB.
-Total: 10.585860 ms (FindLiveObjects: 0.603600 ms CreateObjectMapping: 1.091872 ms MarkObjects: 5.283568 ms  DeleteObjects: 3.606227 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 14.541 seconds
-Refreshing native plugins compatible for Editor in 5.66 ms, found 0 plugins.
+- Loaded All Assemblies, in 14.943 seconds
+Refreshing native plugins compatible for Editor in 15.58 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.852 seconds
-Domain Reload Profiling: 15390ms
-	BeginReloadAssembly (159ms)
+Domain Reload Profiling: 15793ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
@@ -681,215 +511,425 @@ Domain Reload Profiling: 15390ms
 		CreateAndSetChildDomain (47ms)
 	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (14262ms)
-		LoadAssemblies (719ms)
+	initialDomainReloadingComplete (127ms)
+	LoadAllAssembliesAndSetupDomain (14624ms)
+		LoadAssemblies (1331ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13591ms)
-			TypeCache.Refresh (117ms)
+		AnalyzeDomain (13343ms)
+			TypeCache.Refresh (114ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (13461ms)
+			BuildScriptInfoCaches (13216ms)
 			ResolveRequiredComponents (10ms)
 	FinalizeReload (853ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (589ms)
+		SetupLoadedEditorAssemblies (570ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (31ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (420ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (394ms)
 			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 16.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (6.5 MB). Loaded Objects now: 6961.
-Memory consumption went from 169.0 MB to 162.5 MB.
-Total: 9.018898 ms (FindLiveObjects: 0.639625 ms CreateObjectMapping: 1.052236 ms MarkObjects: 4.804819 ms  DeleteObjects: 2.521564 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 14.832 seconds
-Refreshing native plugins compatible for Editor in 13.39 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.865 seconds
-Domain Reload Profiling: 15693ms
-	BeginReloadAssembly (149ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (112ms)
-	LoadAllAssembliesAndSetupDomain (14523ms)
-		LoadAssemblies (1053ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13519ms)
-			TypeCache.Refresh (121ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (13385ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (865ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (591ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (409ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 15.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (8.0 MB). Loaded Objects now: 6963.
-Memory consumption went from 168.9 MB to 161.0 MB.
-Total: 10.419506 ms (FindLiveObjects: 0.644786 ms CreateObjectMapping: 1.121503 ms MarkObjects: 5.090372 ms  DeleteObjects: 3.562227 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 14.981 seconds
-Refreshing native plugins compatible for Editor in 10.57 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.916 seconds
-Domain Reload Profiling: 15893ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (14680ms)
-		LoadAssemblies (1139ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13590ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (13567ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (916ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (639ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (464ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (24ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 14.89 ms, found 0 plugins.
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 26.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (6.7 MB). Loaded Objects now: 6965.
-Memory consumption went from 168.9 MB to 162.3 MB.
-Total: 9.351824 ms (FindLiveObjects: 0.625383 ms CreateObjectMapping: 1.033373 ms MarkObjects: 5.016918 ms  DeleteObjects: 2.675245 ms)
+Unloading 6068 unused Assets / (8.9 MB). Loaded Objects now: 6954.
+Memory consumption went from 168.9 MB to 159.9 MB.
+Total: 11.207988 ms (FindLiveObjects: 0.703552 ms CreateObjectMapping: 1.195640 ms MarkObjects: 4.848364 ms  DeleteObjects: 4.459603 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 12.066 seconds
-Refreshing native plugins compatible for Editor in 12.11 ms, found 0 plugins.
+- Loaded All Assemblies, in 12.416 seconds
+Refreshing native plugins compatible for Editor in 21.23 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.871 seconds
-Domain Reload Profiling: 12934ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.922 seconds
+Domain Reload Profiling: 13334ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (46ms)
 	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (11778ms)
-		LoadAssemblies (1076ms)
+	initialDomainReloadingComplete (126ms)
+	LoadAllAssembliesAndSetupDomain (12095ms)
+		LoadAssemblies (939ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10752ms)
-			TypeCache.Refresh (46ms)
+		AnalyzeDomain (11205ms)
+			TypeCache.Refresh (108ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (10693ms)
+			BuildScriptInfoCaches (11084ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (872ms)
+	FinalizeReload (923ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (598ms)
+		SetupLoadedEditorAssemblies (635ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (403ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (24ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (23ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+		AwakeInstancesAfterBackupRestoration (10ms)
 Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 20.57 ms, found 0 plugins.
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 19.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (8.5 MB). Loaded Objects now: 6967.
-Memory consumption went from 169.0 MB to 160.4 MB.
-Total: 10.586037 ms (FindLiveObjects: 0.672608 ms CreateObjectMapping: 0.982510 ms MarkObjects: 4.947607 ms  DeleteObjects: 3.982699 ms)
+Unloading 6068 unused Assets / (7.6 MB). Loaded Objects now: 6956.
+Memory consumption went from 168.9 MB to 161.3 MB.
+Total: 9.505101 ms (FindLiveObjects: 0.616195 ms CreateObjectMapping: 0.969230 ms MarkObjects: 4.620075 ms  DeleteObjects: 3.299084 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 15.344 seconds
-Refreshing native plugins compatible for Editor in 11.85 ms, found 0 plugins.
+- Loaded All Assemblies, in 14.519 seconds
+Refreshing native plugins compatible for Editor in 15.16 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.847 seconds
-Domain Reload Profiling: 16187ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  0.827 seconds
+Domain Reload Profiling: 15343ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (14203ms)
+		LoadAssemblies (1087ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13165ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (13070ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (828ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 37.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (8.0 MB). Loaded Objects now: 6958.
+Memory consumption went from 168.9 MB to 160.8 MB.
+Total: 10.170908 ms (FindLiveObjects: 0.605203 ms CreateObjectMapping: 1.083539 ms MarkObjects: 4.790406 ms  DeleteObjects: 3.690648 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.504 seconds
+Refreshing native plugins compatible for Editor in 27.26 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.041 seconds
+Domain Reload Profiling: 9541ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (8169ms)
+		LoadAssemblies (968ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7248ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (7116ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1042ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (718ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (491ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 16.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (8.2 MB). Loaded Objects now: 6960.
+Memory consumption went from 168.9 MB to 160.7 MB.
+Total: 11.169594 ms (FindLiveObjects: 0.660592 ms CreateObjectMapping: 1.087417 ms MarkObjects: 5.558207 ms  DeleteObjects: 3.862247 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 18.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6061 unused Assets / (8.1 MB). Loaded Objects now: 6960.
+Memory consumption went from 169.1 MB to 161.0 MB.
+Total: 9.839257 ms (FindLiveObjects: 0.599559 ms CreateObjectMapping: 0.877093 ms MarkObjects: 5.316751 ms  DeleteObjects: 3.045248 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.756 seconds
+Refreshing native plugins compatible for Editor in 15.40 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.092 seconds
+Domain Reload Profiling: 16844ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (15482ms)
+		LoadAssemblies (1316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14216ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (13997ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1092ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (780ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 21.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (8.1 MB). Loaded Objects now: 6962.
+Memory consumption went from 168.8 MB to 160.7 MB.
+Total: 10.454100 ms (FindLiveObjects: 0.618610 ms CreateObjectMapping: 1.019553 ms MarkObjects: 5.076253 ms  DeleteObjects: 3.738938 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 15.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6061 unused Assets / (6.2 MB). Loaded Objects now: 6962.
+Memory consumption went from 169.0 MB to 162.8 MB.
+Total: 8.012158 ms (FindLiveObjects: 0.597901 ms CreateObjectMapping: 0.854393 ms MarkObjects: 4.717674 ms  DeleteObjects: 1.841699 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 18.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6061 unused Assets / (6.2 MB). Loaded Objects now: 6962.
+Memory consumption went from 169.0 MB to 162.8 MB.
+Total: 8.017625 ms (FindLiveObjects: 0.594470 ms CreateObjectMapping: 0.860469 ms MarkObjects: 4.735716 ms  DeleteObjects: 1.826387 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 13.722 seconds
+Refreshing native plugins compatible for Editor in 24.08 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.938 seconds
+Domain Reload Profiling: 14655ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (128ms)
+	LoadAllAssembliesAndSetupDomain (13397ms)
+		LoadAssemblies (1398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12047ms)
+			TypeCache.Refresh (48ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (11987ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (939ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (675ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 44.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (8.8 MB). Loaded Objects now: 6964.
+Memory consumption went from 168.9 MB to 160.1 MB.
+Total: 34.405316 ms (FindLiveObjects: 0.780254 ms CreateObjectMapping: 1.042433 ms MarkObjects: 4.827633 ms  DeleteObjects: 27.753979 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.145 seconds
+Refreshing native plugins compatible for Editor in 13.62 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.835 seconds
+Domain Reload Profiling: 7976ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (6799ms)
+		LoadAssemblies (1206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5650ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (5511ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (578ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 14.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (3.5 MB). Loaded Objects now: 6966.
+Memory consumption went from 168.9 MB to 165.4 MB.
+Total: 13.080955 ms (FindLiveObjects: 0.774223 ms CreateObjectMapping: 1.057177 ms MarkObjects: 8.242097 ms  DeleteObjects: 3.006628 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 14.100 seconds
+Refreshing native plugins compatible for Editor in 21.54 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.828 seconds
+Domain Reload Profiling: 14923ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
@@ -897,77 +937,218 @@ Domain Reload Profiling: 16187ms
 		CreateAndSetChildDomain (49ms)
 	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (15044ms)
-		LoadAssemblies (1377ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (13784ms)
+		LoadAssemblies (1293ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13715ms)
-			TypeCache.Refresh (89ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (13614ms)
+		AnalyzeDomain (12540ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (12419ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (847ms)
+	FinalizeReload (828ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (590ms)
+		SetupLoadedEditorAssemblies (572ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (32ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (417ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (393ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (25ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+		AwakeInstancesAfterBackupRestoration (9ms)
 Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
-Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
 Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
-Refreshing native plugins compatible for Editor in 19.48 ms, found 0 plugins.
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 15.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6067 unused Assets / (7.6 MB). Loaded Objects now: 6969.
-Memory consumption went from 169.0 MB to 161.4 MB.
-Total: 9.696319 ms (FindLiveObjects: 0.602949 ms CreateObjectMapping: 0.960723 ms MarkObjects: 4.684806 ms  DeleteObjects: 3.447095 ms)
+Unloading 6068 unused Assets / (6.4 MB). Loaded Objects now: 6968.
+Memory consumption went from 168.9 MB to 162.5 MB.
+Total: 8.728375 ms (FindLiveObjects: 0.620622 ms CreateObjectMapping: 0.955303 ms MarkObjects: 4.743647 ms  DeleteObjects: 2.408335 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 793.123229 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7949bc9952bd4c1466e5415616cf309') in 0.112777835 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+Received Prepare
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 14.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6061 unused Assets / (6.3 MB). Loaded Objects now: 6968.
+Memory consumption went from 169.1 MB to 162.8 MB.
+Total: 9.120701 ms (FindLiveObjects: 0.631243 ms CreateObjectMapping: 0.879706 ms MarkObjects: 5.659735 ms  DeleteObjects: 1.949310 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.002900 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(13366fbd18a0a4f40911600867f767d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(13366fbd18a0a4f40911600867f767d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12e6a46e55080ccb876d92d02ee53986') in 0.033817738 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 14.607 seconds
+Refreshing native plugins compatible for Editor in 32.24 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 15430ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (14294ms)
+		LoadAssemblies (1178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13176ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (13044ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (827ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 30.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (9.0 MB). Loaded Objects now: 6970.
+Memory consumption went from 168.9 MB to 159.9 MB.
+Total: 11.164452 ms (FindLiveObjects: 0.654687 ms CreateObjectMapping: 1.010556 ms MarkObjects: 4.948922 ms  DeleteObjects: 4.549346 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.001866 seconds.
-  path: Assets/New Universal Render Pipeline Asset.asset
-  artifactKey: Guid(b66a44731ebf178468b2bdf1fb0d64e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Universal Render Pipeline Asset.asset using Guid(b66a44731ebf178468b2bdf1fb0d64e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08f022a37c6ba68bc59e47aef09f490b') in 0.071125529 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.526 seconds
+Refreshing native plugins compatible for Editor in 17.28 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.855 seconds
+Domain Reload Profiling: 11379ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (10201ms)
+		LoadAssemblies (1169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9085ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8948ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (855ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (586ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 22.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (6.5 MB). Loaded Objects now: 6972.
+Memory consumption went from 168.8 MB to 162.4 MB.
+Total: 9.315424 ms (FindLiveObjects: 0.672685 ms CreateObjectMapping: 1.021819 ms MarkObjects: 4.845352 ms  DeleteObjects: 2.774707 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.001333 seconds.
-  path: Assets/Scripts/ScriptableObjects/DefaultGameMode.asset
-  artifactKey: Guid(c0fc0e48644250d40841518928db1756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/DefaultGameMode.asset using Guid(c0fc0e48644250d40841518928db1756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9ea0c7b99c83bbb6d2c70d6fe03f986') in 0.045145243 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.755 seconds
+Refreshing native plugins compatible for Editor in 22.41 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.962 seconds
+Domain Reload Profiling: 16713ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (15449ms)
+		LoadAssemblies (1559ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13939ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (13894ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (963ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (685ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'SyntyStudios/CloudShader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/CloudShaderNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlitNoFog': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/TriplanarBasic': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/Basic_LOD_Shader': fallback shader 'wiiu' not found
+Shader 'SyntyStudios/SkyboxUnlit': fallback shader 'wiiu' not found
+Refreshing native plugins compatible for Editor in 50.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6068 unused Assets / (7.7 MB). Loaded Objects now: 6974.
+Memory consumption went from 168.9 MB to 161.2 MB.
+Total: 10.008468 ms (FindLiveObjects: 0.639936 ms CreateObjectMapping: 1.034298 ms MarkObjects: 4.900634 ms  DeleteObjects: 3.432927 ms)
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-
-SDL leaked 2 allocations
+Prepare: number of updated asset objects reloaded= 0

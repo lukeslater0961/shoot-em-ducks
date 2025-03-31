@@ -10,12 +10,14 @@ public class GameMenuManager : MonoBehaviour
 	[SerializeField]	GameObject	HUD;
 	[SerializeField]	GameObject	GameMenuHUD;
 
+	[SerializeField]	Button		infinityButton;
+	[SerializeField]	Button		normalButton;
+
 	[SerializeField]	TMP_Text	highscoreText;
     [SerializeField]	TMP_Text	livesText;
 
     [SerializeField]	Camera		menuCamera;
 	[SerializeField]	Camera		gameCamera;
-
 
     public				bool		inMenu = true;
 	private				int			highScore;
@@ -73,7 +75,19 @@ public class GameMenuManager : MonoBehaviour
 
     public void setGameMode(bool On)
     {
-		GameManager.instance.runtimeGameSettings.gameMode = GameMode.gameModes.normal;
+		if (!infinityButton.gameObject.activeSelf)
+		{
+			infinityButton.gameObject.SetActive(true);
+			normalButton.gameObject.SetActive(false);
+			GameManager.instance.runtimeGameSettings.gameMode = GameMode.gameModes.infinite;
+		}
+		else
+		{
+			infinityButton.gameObject.SetActive(false);
+			normalButton.gameObject.SetActive(true);
+			GameManager.instance.runtimeGameSettings.gameMode = GameMode.gameModes.normal;
+		}
+		Debug.Log($"game mode is set to {GameManager.instance.runtimeGameSettings.gameMode}");
     }
 
 	public void setLives(bool On)

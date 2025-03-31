@@ -21,11 +21,12 @@ public class HUDHandler : MonoBehaviour
 	/// <summary>
 	/// Sets all the correct values for the HUD
 	/// </summary>
-	public void hudSetup(TMP_Text healthText, TMP_Text roundText, TMP_Text scoreText, bool lives)
+	public void HudSetup(TMP_Text healthText, TMP_Text roundText, TMP_Text scoreText, bool lives)
 	{
 		if (GameManager.instance.runtimeGameSettings.lives)
 		{
 			healthText.gameObject.SetActive(true);
+			healthText.text = "/3";
 			healthText.text = $"{GameManager.instance.health}" + healthText.text;
         }
         else healthText.gameObject.SetActive(false);
