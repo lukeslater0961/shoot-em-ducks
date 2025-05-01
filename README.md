@@ -3,14 +3,13 @@
 ![Game Screenshot](https://github.com/user-attachments/assets/4f87dc63-b045-4d19-aaef-c1e67b0e2e34)
 ![In-Game Screenshot](https://github.com/user-attachments/assets/f90e9dc2-04d9-4a98-bdbe-bc6d675131ef)
 
-Shoot'em Ducks is a first-person duck shooting game with a distinctive low-poly aesthetic. Designed as a personal project, it showcases my ability to develop engaging gameplay mechanics, implement UI elements, and optimize visual clarity while maintaining stylistic appeal.
+Shoot'em Ducks is a first-person duck shooting game with a distinctive low-poly aesthetic.
 
 ## Features
 
 - **Low-Poly Art Style** – A minimalist yet visually distinct design that enhances clarity and immersion.
 - **First-Person Perspective** – Unrestricted aiming with deliberate movement constraints to focus on shooting mechanics.
 - **Game Environments** – Includes a main menu and in-game environments consistent with the low-poly aesthetic.
-- **HUD & UI** – Under active development to ensure intuitive player interaction and engagement.
 
 ## Controls
 
@@ -29,7 +28,7 @@ Shoot'em Ducks is a first-person duck shooting game with a distinctive low-poly 
    git clone https://github.com/lukeslater0961/shoot-em-ducks.git
    ```
 2. Open the project in Unity (version 6.0.0 or later).
-3. Run the game within the Unity Editor or build it for Windows, Mac, or Linux.
+3. Run the game within the Unity Editor or build it.
 
 ## Development Roadmap
 
@@ -64,6 +63,3 @@ This project is distributed under the [MIT License](LICENSE).
 - Asset pack provided by Sinty Studios.
 For inquiries or collaboration opportunities:
 - **Email**: [luke.a.slater@outlook.com](mailto:luke.a.slater@outlook.com)
-- **GitHub**: [lukeslater0961](https://github.com/lukeslater0961)
-
-
